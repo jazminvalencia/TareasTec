@@ -1,0 +1,177 @@
+body{
+    background: black;
+    font-size: 16px; 
+}
+nav{
+    margin-top: 10px;
+}
+a{
+    display: list-item;
+}
+header p{
+    font-size: 1.8em;
+    display: inline-block;
+    margin-right: 15px;   
+}
+nav div a{
+    font-size: 1.8em;
+    display: inline-block;
+    margin-right: 15px;   
+}
+header input{
+    border: gray;
+    background-color: rgb(170, 170, 170) ;
+    border-radius: 5px;
+    color: gray;
+    height: 28px;
+    width: 300px;
+}
+nav div{
+    border-top: 1px solid rgb(56, 50, 50);
+}
+div{
+    padding-left: 0px;
+}
+div a{
+    font-size: 1em;
+    display: inline-block;
+    margin-right: 15px;
+}
+div img{
+    height: 300px;
+    width: 150px;
+}
+p{
+    margin-top: 0px;
+    height: 20px;
+    margin-bottom: 0px;
+    Justify-content: space-around;
+}
+.contenedor{
+    Justify-content: space-around;
+    display: flex;
+    height: 400px;
+}
+.footer-Div{
+    /* border: 3px solid red; */
+    border-bottom: 1px solid rgb(56, 50, 50);
+    font-size: 1em;
+}
+.item{
+    height: 90%;
+    width: 15%;
+    margin: 15px;
+    line-height: 50px;
+    font-weight: 600px;
+}
+.pie{
+    height: 40px;
+    margin-top: 10px;
+    text-align: center;
+}
+.boton{
+    display: none;
+}
+.subtitulo{
+    border-top: 1px solid rgb(56, 50, 50);
+    margin-top: 15px;
+    padding-top: 10px;
+}
+.menu{
+    color: white;
+}
+.letraMediana{
+    size: 5em;
+}
+.letraChica{
+    size: 0.5em;
+}
+.colorBlanco{
+    color: white;
+}
+.colorGris{
+        color: rgb(170, 170, 170);
+}
+@media screen  and (max-width: 992px){
+    body{
+        background-color: black;
+    }
+    header p{
+        border: 1px solid black;
+        padding-bottom: 15px;
+        display: flex;
+        justify-content: center;  
+    }
+    header input{
+        width: 100%;  
+    }
+    div img{
+        height: 600px;
+        width: 300px;
+        justify-content: center; 
+    }
+    li a{
+        display: center;
+    }
+    .subtitulo{
+        display: none;
+    }
+    .contenedor{
+        display: block;
+        height: 26.667%;
+        Justify-content: space-around;
+    }
+    .boton {
+       background-color:rgb(170, 170, 170);
+       color: white;
+       border: none;
+       margin-top:15px; 
+       padding: 16px;
+       width: 100%;
+       font-size: 18.5px;
+       display: inline;
+       cursor: pointer;
+    }
+    .links a{
+        text-decoration: none; 
+        color: rgb(170, 170, 170);
+        display: block;
+        padding: 13px;
+    }
+    .links {
+    background-color: #f9f9f9;
+       width: 189px;
+       display: none;
+        
+    }
+    .links a:hover{
+        background-color: #f1f1f1;
+        display: relative;
+    }
+    nav:hover .links{
+        display: block;
+    }
+    nav{
+        position: inherit;
+    }
+    .menu{
+        display: none;
+        size: 13px;
+    }
+   .footer-Div{
+       display: none;
+   }
+   .letraMediana{
+    size: 5em;
+    height: 20px;
+    width: 400px;
+    margin-top: auto;
+    }
+    .movil{
+        display: none;
+    }
+    .letraChica{
+        size: 0.5em;
+        padding-bottom: 30px;
+    }
+ }
