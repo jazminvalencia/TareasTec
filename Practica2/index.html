@@ -10,17 +10,28 @@
 
 </head>
 <body>
-   <header>  
-        <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+<header>  
+        <nav class="navbar navbar-light bg-light">
         <a class="navbar-brand" href="#">CitiCopy</a>
-        <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Buscador">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscador</button>
-    </form>
+        <form class="form-inline">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        </form>
 </header>
 
-<aside class="col-sm-12 col-md-8">
-    <ul class="nav nav-tabs">
+<div class="dropdown botonEspandible">
+    <button class="btn btn-secondary dropdown-toggle boton" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Generos
+    </button>
+    <div class="dropdown-menu boton" aria-labelledby="dropdownMenuButton">
+      <a class="dropdown-item boton" href="#">Populares</a>
+      <a class="dropdown-item boton" href="#">Comedia</a>
+      <a class="dropdown-item boton" href="#">Drama</a>
+      <a class="dropdown-item boton" href="#">Romance</a>
+    </div>
+  </div>
+
+<aside class="row d-none d-sm-block">
+    <ul class="nav nav-tabs col-lg-12">
         <li class="nav-item ">
             <a class="nav-link active" href="#">Populares</a>
         </li>
@@ -38,51 +49,143 @@
 
 <div class="container">
     <div class="ajuste row">
-        <div class="col-sm-12 col-md-6 col-lg-4">
-            <img src="img/capMarvel.jpeg" class="img-thumbnail">
+        <div class="col-sm-12 col-md-4 col-lg-2">
+            <img src="img/capMarvel.jpeg" class="img-thumbnail imagen">
             <p class="colorBlanco letraMediana"> Capitan Marvel </p>
             <p class="colorGris letraChica"> 2018</p>
         </div>
-        <div class="col-sm-12 col-md-6 col-lg-4">
-            <img src="img/cartelera.jpg" class="img-thumbnail">
+        <div class="col-sm-12 col-md-4 col-lg-2">
+            <img src="img/cartelera.jpg" class="img-thumbnail imagen">
             <p class="colorBlanco letraMediana"> Aladino </p>
             <p class="colorGris letraChica"> 2019</p>
         </div>
-        <div class="col-sm-12 col-md-6 col-lg-4">
-            <img src="img/MaryPoppins.jpeg" class="img-thumbnail">
+        <div class="col-sm-12 col-md-4 col-lg-2">
+            <img src="img/MaryPoppins.jpeg" class="img-thumbnail imagen">
             <p class="colorBlanco letraMediana"> Mery Poppins </p>
             <p class="colorGris letraChica"> 2019</p>
         </div>
-        <div class="col-sm-12 col-md-6 col-lg-4">
-            <img src="img/reyLeon.jpg" class="img-thumbnail">
+        <div class="col-sm-12 col-md-4 col-lg-2">
+            <img src="img/reyLeon.jpg" class="img-thumbnail imagen">
             <p class="colorBlanco letraMediana"> Rey Leon</p>
             <p class="colorGris letraChica"> 2019</p>
         </div>
-        <div class="col-sm-12 col-md-6 col-lg-4">
-            <img src="img/Showman.jpeg" class="img-thumbnail">
+        <div class="col-sm-12 col-md-4 col-lg-2">
+            <img src="img/Showman.jpeg" class="img-thumbnail imagen">
             <p class="colorBlanco letraMediana"> Showman </p>
             <p class="colorGris letraChica"> 2018</p>
         </div>
-        <div class="col-sm-12 col-md-6 col-lg-4">
-            <img src="img/toyStory.jpg" class="img-thumbnail">
+        <div class="col-sm-12 col-md-4 col-lg-2">
+            <img src="img/toyStory.jpg" class="img-thumbnail imagen">
             <p class="colorBlanco letraMediana"> Toy Story 4 </p>
             <p class="colorGris letraChica"> 2019</p>
         </div>
-        <div class="col-sm-12 col-md-6 col-lg-4">
-            <img src="img/Venfadores.jpeg" class="img-thumbnail">
-            <p class="colorBlanco letraMediana"> Los Vengadores</p>
-            <p class="colorGris letraChica"> 2019 </p>
+    </div>
+    <div class="ajuste row">
+        <div class="col-sm-12 col-md-4 col-lg-2">
+            <img src="img/capMarvel.jpeg" class="img-thumbnail imagen">
+            <p class="colorBlanco letraMediana"> Capitan Marvel </p>
+            <p class="colorGris letraChica"> 2018</p>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-2">
+            <img src="img/cartelera.jpg" class="img-thumbnail imagen">
+            <p class="colorBlanco letraMediana"> Aladino </p>
+            <p class="colorGris letraChica"> 2019</p>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-2">
+            <img src="img/MaryPoppins.jpeg" class="img-thumbnail imagen">
+            <p class="colorBlanco letraMediana"> Mery Poppins </p>
+            <p class="colorGris letraChica"> 2019</p>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-2">
+            <img src="img/reyLeon.jpg" class="img-thumbnail imagen">
+            <p class="colorBlanco letraMediana"> Rey Leon</p>
+            <p class="colorGris letraChica"> 2019</p>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-2">
+            <img src="img/Showman.jpeg" class="img-thumbnail imagen">
+            <p class="colorBlanco letraMediana"> Showman </p>
+            <p class="colorGris letraChica"> 2018</p>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-2">
+            <img src="img/toyStory.jpg" class="img-thumbnail imagen">
+            <p class="colorBlanco letraMediana"> Toy Story 4 </p>
+            <p class="colorGris letraChica"> 2019</p>
+        </div>
+    </div>
+    <div class="ajuste row">
+        <div class="col-sm-12 col-md-4 col-lg-2">
+            <img src="img/capMarvel.jpeg" class="img-thumbnail imagen">
+            <p class="colorBlanco letraMediana"> Capitan Marvel </p>
+            <p class="colorGris letraChica"> 2018</p>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-2">
+            <img src="img/cartelera.jpg" class="img-thumbnail imagen">
+            <p class="colorBlanco letraMediana"> Aladino </p>
+            <p class="colorGris letraChica"> 2019</p>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-2">
+            <img src="img/MaryPoppins.jpeg" class="img-thumbnail imagen">
+            <p class="colorBlanco letraMediana"> Mery Poppins </p>
+            <p class="colorGris letraChica"> 2019</p>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-2">
+            <img src="img/reyLeon.jpg" class="img-thumbnail imagen">
+            <p class="colorBlanco letraMediana"> Rey Leon</p>
+            <p class="colorGris letraChica"> 2019</p>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-2">
+            <img src="img/Showman.jpeg" class="img-thumbnail imagen">
+            <p class="colorBlanco letraMediana"> Showman </p>
+            <p class="colorGris letraChica"> 2018</p>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-2">
+            <img src="img/toyStory.jpg" class="img-thumbnail imagen">
+            <p class="colorBlanco letraMediana"> Toy Story 4 </p>
+            <p class="colorGris letraChica"> 2019</p>
+        </div>
+    </div>
+    <div class="ajuste row">
+        <div class="col-sm-12 col-md-4 col-lg-2">
+            <img src="img/capMarvel.jpeg" class="img-thumbnail imagen">
+            <p class="colorBlanco letraMediana"> Capitan Marvel </p>
+            <p class="colorGris letraChica"> 2018</p>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-2">
+            <img src="img/cartelera.jpg" class="img-thumbnail imagen">
+            <p class="colorBlanco letraMediana"> Aladino </p>
+            <p class="colorGris letraChica"> 2019</p>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-2">
+            <img src="img/MaryPoppins.jpeg" class="img-thumbnail imagen">
+            <p class="colorBlanco letraMediana"> Mery Poppins </p>
+            <p class="colorGris letraChica"> 2019</p>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-2">
+            <img src="img/reyLeon.jpg" class="img-thumbnail imagen">
+            <p class="colorBlanco letraMediana"> Rey Leon</p>
+            <p class="colorGris letraChica"> 2019</p>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-2">
+            <img src="img/Showman.jpeg" class="img-thumbnail imagen">
+            <p class="colorBlanco letraMediana"> Showman </p>
+            <p class="colorGris letraChica"> 2018</p>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-2">
+            <img src="img/toyStory.jpg" class="img-thumbnail imagen">
+            <p class="colorBlanco letraMediana"> Toy Story 4 </p>
+            <p class="colorGris letraChica"> 2019</p>
         </div>
     </div>
 </div>
 
-<footer>
-    <section class="Seccion2">
-        <div class="footer-Div colorBlanco">Informacion</div>
-        <p class="colorBlanco pie movil"> Culiacan, Sinaloa colima 788 col antonio rosales</p>
-        <p class="colorGris pie ">CitiCopy</p>
-    </section>
+<footer class="page-footer blue row ">
+  <div class="footer-copyright text-center py-3 col-lg-12 blanco ">© Copyright:
+    <a href="https://mdbootstrap.com/education/bootstrap/ ">CitiCopy</a>
+    <a class="blanco informacion  d-none d-sm-block"> Culiacan, Sinaloa colima 788 col antonio rosales</a>
+  </div>
 </footer>
+
+  
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
