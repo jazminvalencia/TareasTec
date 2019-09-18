@@ -5,22 +5,14 @@ body{
     margin-right: 0%;
     margin-left: 0%;
 }
-.img-thumbnail {
-    padding: .25rem;
-    /* background-color: #fff; */
-    /* border: 1px solid #dee2e6; */
-    border-radius: .25rem;
-    max-width: 100%;
-    height: auto;
-}
 .row {
 margin-top: 10px;
 }
-p{
-    color: white;
+.card{
+    background: black;
 }
-.navbar{
-    bottom: none;
+.card-text{
+    color: white;
 }
 .botonEspandible{
     color: black;
@@ -28,13 +20,6 @@ p{
     font-size: 18.5px;
     display: inline;
     cursor: pointer;
-}
-.submenu{
-    display: none;
-}
-.imagen{
-    height: 600px;
-    width: 300px;
 }
 .boton{
     width: 93%;
@@ -50,14 +35,6 @@ p{
 .container{
     margin-right: 0%;
     margin-left: 0%;
-}
-.img-thumbnail {
-    padding: .25rem;
-    /* background-color: #fff; */
-    /* border: 1px solid #dee2e6; */
-    border-radius: .25rem;
-    max-width: 100%;
-    height: auto;
 }
 .row {
 margin-top: 10px;
